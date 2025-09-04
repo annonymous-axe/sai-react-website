@@ -25,6 +25,13 @@ const Header = () => {
        setOpen(!open);
     }
 
+    function handleNavigation(link){
+        
+        if(link === 'Service'){
+            document.getElementById("service-section").scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
     const menuList = (
         <ClickAwayListener onClickAway={() => {setOpen(false)}}>
             <Box sx={{width: 240}} role="presentation">
@@ -69,15 +76,15 @@ const Header = () => {
                         component="div"
                         sx={{flexGrow: 1}}
                     >
-                        <img src={saiLogo} className="logo" alt="Vite logo" width={200} />
-                        {/* SAI Consultant */}
+                        {/* <img src={saiLogo} className="logo" alt="Vite logo" width={200} /> */}
+                        SAI Consultant
                     </Typography>
         
                     <Box
                         sx={{display: {sm: 'block', xs: 'none'}}}
                     >
                         {navItems.map((item) => (
-                            <Button key={item} sx={{color: "text.white"}} variant="texted">
+                            <Button key={item} sx={{color: "text.white"}} variant="texted" onClick={() => {handleNavigation(item)}}>
                                 {item}
                             </Button>
                         ))}

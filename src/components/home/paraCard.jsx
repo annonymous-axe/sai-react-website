@@ -64,6 +64,7 @@ function ParagraphCard() {
           Cyclone etc. adhering to the latest Codal provisions.
         </Typography>
 
+        <div id="service-section"></div>
       </Paper>
     </motion.div>
   );
