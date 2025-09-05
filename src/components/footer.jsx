@@ -52,14 +52,8 @@ function Footer() {
               <IconButton color="inherit" href="#" sx={{ "&:hover": { color: "#3b82f6" } }}>
                 <Facebook />
               </IconButton>
-              <IconButton color="inherit" href="#" sx={{ "&:hover": { color: "#1da1f2" } }}>
-                <Twitter />
-              </IconButton>
               <IconButton color="inherit" href="#" sx={{ "&:hover": { color: "#0a66c2" } }}>
                 <LinkedIn />
-              </IconButton>
-              <IconButton color="inherit" href="#" sx={{ "&:hover": { color: "#e1306c" } }}>
-                <Instagram />
               </IconButton>
             </Box>
           </Grid>
