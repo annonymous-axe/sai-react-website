@@ -70,6 +70,7 @@ function ServiceSection() {
                     color: "#fff",
                     borderColor: "primary.main",
                     transform: "translateY(-2px)",
+                    cursor: 'default',
                     transition: "all 0.2s ease-in-out",
                   },
                 }}

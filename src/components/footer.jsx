@@ -26,7 +26,7 @@ function Footer() {
             </Typography>
             <Typography variant="p" sx={{display: 'block', mb: 2}}>we are eager to listen your thought.</Typography>
             
-            <Button href="#" color="inherit" variant="contained">Hire US</Button>
+            <Button variant="outlined">Hire US</Button>
             
           </Grid>
 

@@ -8,17 +8,17 @@ import { Box, Typography } from "@mui/material";
 
 function Sliders() {
   const slides = [
-    { src: "/images/home/home.png", text: "Designing the Future" },
-    { src: "/images/home/SANGINI.jpg", text: "Innovative Architecture" },
-    { src: "/images/home/SRK.jpeg", text: "Sustainable Structures" },
+    { src: "/images/home/home.png", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
+    { src: "/images/home/SANGINI.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
+    { src: "/images/home/SRK.jpeg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
   ];
 
   return (
     <Swiper
       modules={[Autoplay, Pagination, Navigation]}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
-      pagination={{ clickable: true }}
-      navigation
+      // pagination={{ clickable: true }}
+      // navigation
       loop
       style={{ height: "100vh" }}
     >
@@ -65,7 +65,7 @@ function Sliders() {
                 {slide.text}
               </Typography>
               <Typography variant="h6" sx={{ fontWeight: 400 }}>
-                Excellence in Structural Engineering
+                {slide.quote}
               </Typography>
             </Box>
           </Box>
