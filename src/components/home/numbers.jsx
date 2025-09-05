@@ -30,7 +30,7 @@ function KPISection() {
                   backgroundColor: "white",
                 }}
               >
-                <Typography variant="h3" fontWeight="bold" color="primary">
+                <Typography variant="h3" fontWeight="bold" color="text.primary">
                   {counter 
                     ? <CountUp end={kpi.value} duration={5} enableScrollSpy={true} scrollSpyOnce={true} onEnd={stopCounter} />
                     : <CountUp start={kpi.value} end={kpi.value}/>

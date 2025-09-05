@@ -49,12 +49,12 @@ const Header = () => {
     );
 
     return (
-        <Box sx={{display: 'flex'}}>
+        <Box sx={{display: 'flex', mb: 8}}>
             <AppBar
                 position="fixed"
-                elevation={ scrolled ? 4 : 0}
+                elevation={ 4 }
                 sx={{
-                    backgroundColor: scrolled ? "rgba(29, 27, 27, 0.95)" : "transparent",
+                    backgroundColor: "primary",
                     transition: "background-color 0.3s ease"
                 }}
         >
@@ -76,15 +76,15 @@ const Header = () => {
                         component="div"
                         sx={{flexGrow: 1}}
                     >
-                        {/* <img src={saiLogo} className="logo" alt="Vite logo" width={200} /> */}
-                        SAI Consultant
+                        <img src={saiLogo} className="logo" alt="Vite logo" width={200} />
+                        {/* SAI Consultant */}
                     </Typography>
         
                     <Box
                         sx={{display: {sm: 'block', xs: 'none'}}}
                     >
                         {navItems.map((item) => (
-                            <Button key={item} sx={{color: "text.white"}} variant="texted" onClick={() => {handleNavigation(item)}}>
+                            <Button key={item} sx={{color: "text.primary"}} variant="texted" onClick={() => {handleNavigation(item)}}>
                                 {item}
                             </Button>
                         ))}

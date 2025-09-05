@@ -27,7 +27,7 @@ function ParagraphCard() {
           variant="h3"
           fontWeight="bold"
           gutterBottom
-          sx={{ textAlign: "left", mb: 2, color: "primary.main" }}
+          sx={{ textAlign: "left", mb: 2, color: "text.primary" }}
         >
           What is Structural Engineering?
         </Typography>

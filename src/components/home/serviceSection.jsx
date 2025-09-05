@@ -40,7 +40,7 @@ function ServiceSection() {
             variant="h4"
             fontWeight="bold"
             gutterBottom
-            sx={{ textAlign: "left", mb: 2, color: "primary.main" }}
+            sx={{ textAlign: "left", mb: 2, color: "text.primary" }}
           >
             What We Do?
           </Typography>
