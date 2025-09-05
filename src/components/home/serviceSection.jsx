@@ -66,7 +66,7 @@ function ServiceSection() {
                   borderRadius: "10px",
                   borderWidth: "2px",
                   "&:hover": {
-                    backgroundColor: "primary.main",
+                    backgroundColor: "background.primary",
                     color: "#fff",
                     borderColor: "primary.main",
                     transform: "translateY(-2px)",
