@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography, Link, IconButton } from "@mui/material";
+import { Box, Container, Grid, Typography, Link, IconButton, Button } from "@mui/material";
 import { Facebook, Twitter, LinkedIn, Instagram } from "@mui/icons-material";
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -9,7 +9,7 @@ function Footer() {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#0f172a",
+        backgroundColor: "secondary.main",
         color: "white",
         pt: 8,
         pb: 4,
@@ -17,6 +17,20 @@ function Footer() {
       }}
     >
       <Container maxWidth="lg">
+        {/* Hire Us Section */}
+        <Grid container spacing={6} justifyContent="center" sx={{mb: 5}}>
+          {/* Quick Links */}
+          <Grid item xs={12} sm={4} sx={{textAlign: 'center'}}>
+            <Typography variant="h4" gutterBottom fontWeight="bold">
+              Have Any Project in Mind?
+            </Typography>
+            <Typography variant="p" sx={{display: 'block', mb: 2}}>we are eager to listen your thought.</Typography>
+            
+            <Button href="#" color="inherit" variant="contained">Hire US</Button>
+            
+          </Grid>
+
+        </Grid>        
         {/* Top Section */}
         <Grid container spacing={6} justifyContent="center">
           {/* Quick Links */}
