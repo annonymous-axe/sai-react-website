@@ -1,5 +1,5 @@
 import { Box, Container, Grid, Typography, Link, IconButton, Button } from "@mui/material";
-import { Facebook, Twitter, LinkedIn, Instagram } from "@mui/icons-material";
+import { Facebook, LinkedIn } from "@mui/icons-material";
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import MarkunreadIcon from '@mui/icons-material/Markunread';
@@ -26,7 +26,7 @@ function Footer() {
             </Typography>
             <Typography variant="p" sx={{display: 'block', mb: 2}}>we are eager to listen your thought.</Typography>
             
-            <Button variant="outlined">Hire US</Button>
+            <Button variant="outlined" >Hire US</Button>
             
           </Grid>
 
@@ -51,7 +51,8 @@ function Footer() {
             <Typography variant="h6" gutterBottom fontWeight="bold">
               Contact
             </Typography>
-            <Typography variant="body2" sx={{ mb: 0.5 }}><FmdGoodIcon sx={{fontSize: 'medium'}} />  20- Ishwarkunj Society,Opp. SMC Sports Complex, Anandmahal road, Adajan,surat -395009</Typography>
+            <Typography variant="body2" sx={{ mb: 0.5 }}><FmdGoodIcon sx={{fontSize: 'medium'}} />  20- Ishwarkunj Society,Opp. SMC Sports Complex,</Typography>
+            <Typography variant="body2" sx={{ mb: 0.5, ml: 3 }}>  Anandmahal road, Adajan,surat -395009</Typography>
             <Typography variant="body2" sx={{ mb: 0.5 }}><LocalPhoneIcon sx={{fontSize: 'medium'}}/> +91 98791 09464</Typography>
             <Typography variant="body2" sx={{ mb: 0.5 }}><LocalPhoneIcon sx={{fontSize: 'medium'}}/> +91 63546 00480</Typography>
             <Typography variant="body2"><MarkunreadIcon sx={{fontSize: 'medium'}} /> admin@sai-consultants.com</Typography>

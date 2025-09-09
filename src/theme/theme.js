@@ -18,7 +18,7 @@ const theme = createTheme({
         text: {
             primary: "#1a1a1a",
             secondary: "#555555",
-            white: "#ffffff"
+            white: "#ffffff",
         },
     },
     typography: {
@@ -26,8 +26,11 @@ const theme = createTheme({
         h1: {fontWeight : 600},
         h3: {fontWeight : 600},
         h4: {fontWeight : 600},
-        body1: {fontSize: "1rem"}
-    }
+        body1: {fontSize: "1rem", letterSpacing: 2},
+        button: {
+            letterSpacing: 2
+        }
+    },
 });
 
 export default theme;
