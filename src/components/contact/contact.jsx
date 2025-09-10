@@ -31,7 +31,11 @@ function Contact(){
                     left: '46%',
                 }}
             >Contact US</Typography>
-            <TypeWritter text="Get in Touch Now." />
+            <TypeWritter sxProp={{
+                    position: 'absolute',
+                    top: '17%',
+                    left: '35%',
+                }} text="Get in Touch Now." />
 
             <Container>
                 <Grid spacing={1} container sx={{mb: 2, mt: 2, color: 'text.primary'}}>

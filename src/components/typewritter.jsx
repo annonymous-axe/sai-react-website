@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import { useState, useEffect } from "react";
 
-function Typewriter({ text, typingSpeed = 100, deletingSpeed = 100, delay = 3000 }) {
+function Typewriter({ text, sxProp, typingSpeed = 100, deletingSpeed = 100, delay = 3000 }) {
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
@@ -29,12 +29,8 @@ function Typewriter({ text, typingSpeed = 100, deletingSpeed = 100, delay = 3000
     return () => clearTimeout(timer);
   }, [displayedText, isDeleting, text, typingSpeed, deletingSpeed, delay]);
 
-  return <Typography                 variant='h3'
-                sx={{
-                    position: 'absolute',
-                    top: '17%',
-                    left: '35%',
-                }}>{displayedText}</Typography>;
+  return <Typography variant='h3'
+                sx={sxProp}>{displayedText}</Typography>;
 }
 
 export default Typewriter;

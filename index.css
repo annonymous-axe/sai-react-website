@@ -1,0 +1,10 @@
+    .ul-list {
+        list-style-type: none; /* Removes default bullet points */
+        padding-left: 20px; /* Adjust as needed for spacing */
+    }
+
+    .ul-list li::before {
+        content: "\2013"; /* Unicode for an en dash, or simply "-" for a hyphen */
+        position: absolute;
+        margin-left: -18px; /* Adjust to position the hyphen */
+    }

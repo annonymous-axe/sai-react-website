@@ -26,6 +26,7 @@ const theme = createTheme({
         h1: {fontWeight : 600},
         h3: {fontWeight : 600},
         h4: {fontWeight : 600},
+        h5: {fontWeight : 600},
         body1: {fontSize: "1rem", letterSpacing: 2},
         button: {
             letterSpacing: 2
