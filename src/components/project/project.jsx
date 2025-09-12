@@ -24,11 +24,11 @@ function Projects(){
                     filter: `brightness(60%)`
                 }}
             />
-            <Typewriter sxProp={{
+            <Typography variant="h3" sx={{
                     position: 'absolute',
-                    top: '10%',
+                    top: '6%',
                     left: '40%',
-                }} text="Our Projects" />
+                }} >Our Projects</Typography>
 
             <Box 
                 sx={{
