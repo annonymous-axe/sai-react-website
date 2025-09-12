@@ -17,6 +17,11 @@ const Header = () => {
     }
 
     function handleNavigation(link){
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional: for a smooth scrolling animation
+        });        
         
         if(link === 'Home'){
             navigate("/");
