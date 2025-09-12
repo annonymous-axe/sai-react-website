@@ -2,7 +2,7 @@ import { AppBar, Box, Button, Drawer, List, ListItem, ListItemButton, ListItemTe
 import { useState } from "react";
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import saiLogo from '/image.svg'
+import saiLogo from '/LOGO.png'
 import { useNavigate } from "react-router-dom";
 
 const navItems = ["Home", "About", "Projects", "Service", "Contact"];
