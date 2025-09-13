@@ -27,7 +27,7 @@ function Projects(){
             />
             <Typography variant="h3" sx={{
                     position: 'absolute',
-                    top: '6%',
+                    top: 300,
                     left: '40%',
                 }} >Our Projects</Typography>
 
