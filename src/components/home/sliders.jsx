@@ -8,11 +8,11 @@ import { Box, Typography } from "@mui/material";
 
 function Sliders() {
   const slides = [
-    { src: "/images/projects/HOME/AHANA.jpg", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
-    { src: "/images/projects/HOME/CENTRAL BUSINESS HUB.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
-    { src: "/images/projects/HOME/KIRAN HOSPITAL.jpg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
-    { src: "/images/projects/HOME/KIRAN MEDICAL COLLEGE.jpg", text: "Sustainable Structures", quote: "Designing dreams into reality" },
-    { src: "/images/projects/HOME/Sangini House.jpg", text: "Sustainable Structures", quote: "Where vision meets structure" }
+    { src: "images/projects/HOME/AHANA.jpg", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
+    { src: "images/projects/HOME/business_hub.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
+    { src: "images/projects/HOME/kiran_hospital.jpg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
+    { src: "images/projects/HOME/kiran_medical_college.jpg", text: "Sustainable Structures", quote: "Designing dreams into reality" },
+    { src: "images/projects/HOME/singini_house.jpg", text: "Sustainable Structures", quote: "Where vision meets structure" }
   ];
 
   return (
@@ -49,7 +49,6 @@ function Sliders() {
               }}
             />
 
-            {/* Centered text */}
             <Box
               sx={{
                 position: "absolute",
