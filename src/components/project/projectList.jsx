@@ -294,6 +294,12 @@ const itemData = [
     category: "High Rise",
   },
   {
+    img: "images/projects/HIGHRISE RESIDENTIAL/Vraj Hill, Nashik/Vraj Hill Front Cam-a.jpg",
+    title: "Vraj Hill",
+    location: "Nashik",
+    category: "High Rise"
+  },
+  {
     img: "images/projects/INSTITUTIONAL/Aarth International School, Surat/Screenshot 2025-07-02 190356.jpg",
     title: "Aarth International School",
     location: "Surat",

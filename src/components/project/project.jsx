@@ -2,7 +2,6 @@ import { Box, Typography } from "@mui/material";
 import Typewriter from "../typewritter";
 import ProjectBG from '/project-top.jpg';
 import ProjectList from "./projectList";
-import { useEffect } from "react";
 
 
 function Projects(){
