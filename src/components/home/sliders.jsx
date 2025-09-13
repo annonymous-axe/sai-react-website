@@ -8,9 +8,11 @@ import { Box, Typography } from "@mui/material";
 
 function Sliders() {
   const slides = [
-    { src: "/images/home/home.png", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
-    { src: "/images/home/SANGINI.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
-    { src: "/images/home/SRK.jpeg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
+    { src: "/images/projects/HOME/AHANA.jpg", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
+    { src: "/images/projects/HOME/CENTRAL BUSINESS HUB.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
+    { src: "/images/projects/HOME/KIRAN HOSPITAL.jpg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
+    { src: "/images/projects/HOME/KIRAN MEDICAL COLLEGE.jpg", text: "Sustainable Structures", quote: "Designing dreams into reality" },
+    { src: "/images/projects/HOME/Sangini House.jpg", text: "Sustainable Structures", quote: "Where vision meets structure" }
   ];
 
   return (
