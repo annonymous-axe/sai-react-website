@@ -5,22 +5,21 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Box, Typography } from "@mui/material";
+import { EffectFade } from "swiper/modules";
 
 function Sliders() {
   const slides = [
     { src: "images/projects/HOME/AHANA.jpg", text: "Designing the Future", quote: "Excellence in Structural Engineering" },
     { src: "images/projects/HOME/business_hub.jpg", text: "Innovative Architecture", quote: "Architecture is a visual art and the buildings speak for themselves." },
     { src: "images/projects/HOME/kiran_hospital.jpg", text: "Sustainable Structures", quote: "The difference between good and bad architecture is the time you spend on it" },
-    { src: "images/projects/HOME/kiran_medical_college.jpg", text: "Sustainable Structures", quote: "Designing dreams into reality" },
-    { src: "images/projects/HOME/singini_house.jpg", text: "Sustainable Structures", quote: "Where vision meets structure" }
+    { src: "images/projects/HOME/kiran_medical_college.jpg", text: "Designing Tomorrow, Today", quote: "Designing dreams into reality" }
   ];
 
   return (
     <Swiper
-      modules={[Autoplay, Pagination, Navigation]}
+      modules={[Autoplay, Pagination, Navigation, EffectFade]}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
-      // pagination={{ clickable: true }}
-      // navigation
+      effect="fade"
       loop
       style={{ height: "100vh" }}
     >
